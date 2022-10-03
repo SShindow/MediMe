@@ -1,0 +1,52 @@
+version: '3.9'
+services:
+  # database service (public image)
+  database:
+    image: postgres:latest
+    networks:
+      - pharma-net
+    environment:
+      - POSTGRES_PASSWORD=qp9CwVoyvXUNjquQCDXN5FYVWRcjE7iR
+      - POSTGRES_USER=bfmnfopq
+      - POSTGRES_DB=bfmnfopq 
+    dns: 
+      hostname=john.db.elephantsql.com
+    env_file:
+      - ./.env
+  
+  # backend service (public image)
+  backend:
+    image: node:latest
+    working_dir: /usr/src/app
+    volumes:
+      - "./back-end:/usr/src/app"
+    command: ["node", "app.js"]
+    expose:
+      - "8000"
+  
+  redis:
+    image: redis
+    networks:
+      - pharma-net
+  
+  # frontend service (custom image)
+  web:
+    build: .
+    volumes:
+      - "./front-end:/usr/src/app"
+    ports:
+      - "3000:3000"
+    networks:
+      - pharma-net
+    environment:
+      - DB_HOST=database
+      - REDIS_HOST=redis
+    depends_on:
+      - database
+      - backend
+      - redis
+    command: ["./wait-for-it.sh", "database:5432", "--", "node", "index.js"]
+
+networks:
+  pharma-net:
+      

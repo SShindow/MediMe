@@ -1,0 +1,128 @@
+.main-login {
+  min-height: 100vh;
+  min-width: 100wh;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+.main-login .login-contain {
+  height: 100vh;
+  width: 100%;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-login .login-contain #logo {
+  position: fixed;
+  top: -3px;
+  left: 9px;
+}
+
+.main-login .login-contain .left-side, .main-login .login-contain .right-side {
+  margin: 2rem 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.main-login .login-contain .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-login .login-contain .left-side input {
+  font-family: 'Inter', sans-serif;
+  display: block;
+  outline: none;
+  border: none;
+  height: 2.5rem;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  padding: 0.2rem 1rem;
+  font-size: 15px;
+  background-color: #F3F3F3;
+  color: #333333;
+  border-radius: 7px;
+}
+
+.main-login .login-contain .left-side input:focus {
+  border: none;
+  outline: none;
+}
+
+.main-login .login-contain .left-side label {
+  font-family: 'Inter', sans-serif;
+  display: block;
+  text-align: left;
+  margin: auto;
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  color: #013567;
+  font-weight: 500;
+}
+
+.main-login .login-contain .left-side .title {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  color: #013567;
+  margin-bottom: 1rem;
+}
+
+.main-login .login-contain .left-side h2 {
+  font-family: 'Inter', sans-serif;
+  color: #013567;
+  font-size: 17px;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.main-login .login-contain .left-side #button_login {
+  font-family: 'Inter', sans-serif;
+  display: block;
+  height: 2.5rem;
+  width: 100%;
+  margin: auto;
+  background-color: #009899;
+  opacity: 0.69;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}
+
+.main-login .login-contain .right-side #pharmacy {
+  height: 10%;
+  width: 10%;
+}
+
+.main-login .login-contain .right-side #pharmacy #phar {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 10%;
+}
+/*# sourceMappingURL=Login.css.map */

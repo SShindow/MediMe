@@ -1,0 +1,119 @@
+.header {
+  position: fixed;
+  top: 24px;
+  left: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  color: #013567;
+}
+
+.data_table {
+  /* margin-left:10px; */
+  width: 100%;
+}
+
+body {
+  height: 600px;
+}
+
+.admin-menu .add-user {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 1190px;
+}
+
+.admin-menu .filter {
+  margin-top: -80px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.btn-add-user {
+  background-color: #2bb673;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-add-user:hover {
+  background-position: 100% 0;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  background-image: -webkit-gradient(linear, left top, right top, from(#25aae1), color-stop(#40e495), color-stop(#30dd8a), to(#2bb673));
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  -webkit-box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.create_form input {
+  font-family: 'Inter', sans-serif;
+  display: block;
+  outline: none;
+  border: none;
+  height: 2.5rem;
+  width: 100%;
+  font-size: 15px;
+  background-color: #F3F3F3;
+  color: #333333;
+  border-radius: 7px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.create_form input:focus {
+  border: none;
+  outline: none;
+}
+
+.create_form label {
+  font-family: 'Inter', sans-serif;
+  display: block;
+  text-align: left;
+  margin: auto;
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.user_info_card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=UserManagement.css.map */

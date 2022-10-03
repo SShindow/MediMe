@@ -1,0 +1,168 @@
+.side-menu{
+    position: fixed;
+    top:0px;
+    background-color: #F2F2F2;
+    width: 250px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    transition: width 0.3s ease-in-out;
+    transition-delay: 1.5s;
+    font-family: 'Inter', sans-serif;
+    z-index: 999;
+}
+
+.side-menu.inactive{
+    position: fixed;
+    top: 0px;
+    width: 80px;
+}
+
+.side-menu.inactive .top-section .toggle-menu-btn{
+    top: -50px;
+}
+
+.side-menu .top-section{
+    position: relative;
+}
+
+.side-menu .top-section .logo{
+    position: relative;
+    width:  40px;
+    height: 40px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    bottom: 10px;
+}
+
+.side-menu .top-section .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.side-menu .top-section .toggle-menu-btn{
+    color: #009899;
+    font-size: 20px;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    transition-delay: 1.5s;
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    border-radius: 1px;
+    background: #009899;
+}
+
+.side-menu .main-menu .menu-item{
+    color: #009899;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    font-weight: 600;
+    border-radius: 4px ;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.side-menu .main-menu .menu-item:hover{
+    background-color: #19020251;
+}
+
+.side-menu .main-menu{
+    margin:5px 0;
+}
+
+.side-menu .main-menu ul li{
+    list-style: none;
+
+}
+
+.side-menu .main-menu .menu-item .menu-icon{
+    display: inline-block;
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    padding: 4px 8px 0px 6px;
+    cursor: pointer;
+}
+
+.side-menu .main-menu .menu-item span{
+    position: absolute;
+    display: inline-block;
+    line-height: 40px;
+    left: 55px;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 1.75s;
+}
+
+.side-menu.inactive .main-menu .menu-item span{
+    opacity: 0;
+    width: 0;
+    height: 0;
+    left: -100px;
+    transition: all 0.2s 3s;
+    transition-delay: 1.5s;
+}
+
+.side-menu .side-menu-footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.side-menu .side-menu-footer .app-item{
+    color: #009899;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.side-menu .side-menu-footer .app-item .app-icon{
+    display: inline-block;
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    cursor: pointer;
+}
+
+.side-menu .side-menu-footer .app-item span{
+    position: absolute;
+    display: inline-block;
+    line-height: 40px;
+    margin-top: -3px;
+    left: 45px;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 1.5s;
+}
+
+.side-menu.inactive .side-menu-footer .app-item span{
+    opacity: 0;
+    width: 0;
+    height: 0;
+    left: -10px;
+    transition: all 0.2s 3s;
+    transition-delay: 1.5s;
+}
+
+.side-menu .side-menu-footer ul li{
+    list-style: none;
+
+}

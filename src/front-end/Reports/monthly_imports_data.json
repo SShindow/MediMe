@@ -1,0 +1,37 @@
+[
+    {
+        "import_no": "100568",
+        "lot_id": "2022051501",
+        "product_id": "3893462880",
+        "quantity": "2000",
+        "import_date": "15-05-2022"
+    },
+    {
+        "import_no": "100569",
+        "lot_id": "2022051501",
+        "product_id": "3893462300",
+        "quantity": "2500",
+        "import_date": "15-05-2022"
+    },
+    {
+        "import_no": "100570",
+        "lot_id": "2022061602",
+        "product_id": "3893462880",
+        "quantity": "5000",
+        "import_date": "16-06-2022"
+    },
+    {
+        "import_no": "100571",
+        "lot_id": "2022061701",
+        "product_id": "8533462230",
+        "quantity": "1000",
+        "import_date": "17-06-2022"
+    }, 
+    {
+        "import_no": "100568",
+        "lot_id": "2022053004",
+        "product_id": "3893462300",
+        "quantity": "2000",
+        "import_date": "30-05-2022"
+    }
+]

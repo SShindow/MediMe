@@ -1,0 +1,47 @@
+#group-list-headings {
+    /* Based on Figma */
+    position: relative;
+    width: 90px;
+    height: 16px;
+    left: 185px;
+    top: 83px;
+
+    font-family: 'Inter';   
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 13px; */
+    font-size: 5px;
+    transform: scale(3, 3);
+    line-height: 16px;
+
+    /* identical to box height */
+    color: #434343;
+}
+
+.GroupList {
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 280px;
+    height: 287px;
+    left: 18px;
+    top: 350px;
+}
+
+.btn-addroom{
+    position: fixed;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    width: 90px;
+    height: 25px;
+    background-color: #00c7c7;
+
+    left: 175px;
+}
+
+.btn-addroom:hover{
+    cursor: pointer;
+    background-color: #00b7b7;
+}

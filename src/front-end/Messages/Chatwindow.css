@@ -1,0 +1,153 @@
+    .input-message {
+        width: 769px;
+        position: fixed;
+        bottom: 17px;
+        left: 390px;
+        z-index: 900;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+    }
+
+    .btn-send {
+        position: fixed;
+        bottom: 17px;
+        left: 1165px;
+        border-radius: 10px;
+        border: none;
+        font-weight: 600;
+        background-color: #00c7c7;
+
+    }
+
+    .btn-send:hover{
+        cursor: pointer;
+        background-color: #00b7b7;
+    }
+    
+
+    .bottom {
+        position: fixed;
+        bottom: 0px;
+        left: 379px;
+        width: 857px;
+        height: 65px;
+        border: 1px solid #e1d5d5;
+    }
+
+    .top {
+        position: fixed;
+        z-index: 990;
+        top: 75px;
+        left: 379px;
+        width: 857px;
+        height: 65px;
+        padding-top: 10px;
+        border: 1px solid #e1d5d5;
+
+    }
+
+    .top-group {
+        position: fixed;
+        z-index: 500;
+        top: 75px;
+        left: 379px;
+        width: 857px;
+        height: 65px;
+        padding-top: 10px;
+        border: 1px solid #e1d5d5;
+    }
+
+    .top-group .room-name {
+        position: fixed;
+        font-style: normal;
+        font-weight: 700;
+        left: 500px;
+        top: 84px;
+    }
+
+    .top-group .room-description {
+        position: fixed;
+        font-style: normal;
+        font-weight: 400;
+        top: 108px;
+        left: 500px;
+    }
+
+    .top-group .avatar_group {
+        position: fixed;
+        left: 390px;
+    }
+
+    .top .avatar {
+        left: 10px;
+        height: 50px;
+        width: 50px;
+        content: fill;
+    }
+
+    .top .author {
+        font-size: large;
+        position: relative;
+        left: 10px
+    }
+
+    .invite-people-btn {
+        position: fixed;
+        right: 370px;
+        top: 90px;
+        width: 105px;
+        text-align: center;
+        font-weight: 600;
+        height: 35px;
+        border-radius: 10px;
+        border: none;
+        z-index: 999;
+        background-color: #00c7c7;
+        /* background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673); */
+        /* box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75); */
+        color: white;
+    }
+
+    .view-user{
+        position: fixed;
+        right: 325px;
+        top: 90px;
+        width: 40px;
+        text-align: center;
+        font-weight: 600;
+        height: 35px;
+        border-radius: 10px;
+        border: none;
+        z-index: 999;
+        background-color: #00c7c7;
+        color: white;
+    }
+
+    .view-user:hover{
+        cursor: pointer;
+        background-color: #00b7b7;
+    }
+
+    .invite-people-btn:hover{
+        cursor: pointer;
+        background-color: #00b7b7;
+    }
+
+    .remove-member{
+        width: 60px;
+        text-align: center;
+        font-weight: 600;
+        height: 25px;
+        border-radius: 10px;
+        border: none;
+        z-index: 999;
+        background-color: #00c7c7;
+        color: white;
+    }
+
+    .remove-member:hover{
+        cursor: pointer;
+        background-color: #00b7b7;
+    }
+
+    

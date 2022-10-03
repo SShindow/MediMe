@@ -1,0 +1,26 @@
+.container {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.header {
+    position: fixed;
+    top: 24px;
+    left: 100px;
+    z-index: 998;
+}
+
+.header h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 34px;
+    color: #013567;
+    top: 0px;
+    left: 0px;
+}
+
+body {
+    overflow-y: scroll;
+}

@@ -1,0 +1,48 @@
+.author {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.date {
+    margin-left: 10px;
+    font-size: 11px;
+    color: #a7a7a7;
+}
+
+.chat-show .sender{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.chat-show .sender .text-message-sender{
+    position: relative;
+    margin-left: 10px;
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
+    right: 0px;
+    
+}
+
+.chat-show .receiver{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.chat-show .receiver .text-message-receiver{
+    position: relative;
+    margin-left: 10px;
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
+    right: 0px;
+    
+}
+.chat-show{
+    top: 100px;
+
+}
+
+

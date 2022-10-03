@@ -1,0 +1,222 @@
+.header {
+  position: fixed;
+  top: 24px;
+  left: 100px;
+}
+
+.header h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 34px;
+  color: #013567;
+}
+
+.container1 {
+  position: absolute;
+  top: 334px;
+  left: 180px;
+  height: 120px;
+  width: 280px;
+  border-style: none;
+  -webkit-box-shadow: 3px 3px 3px #ededed;
+          box-shadow: 3px 3px 3px #ededed;
+  border-radius: 15px;
+}
+
+.container1 .icon {
+  position: absolute;
+  color: #009899;
+  top: 30px;
+  left: 23px;
+  height: 60px;
+  width: 60px;
+}
+
+.container1 .header {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  height: 20px;
+  width: flex;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #009899;
+}
+
+.container1 .description {
+  position: absolute;
+  left: 100px;
+  top: 42px;
+  width: 165px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.container1:hover{
+  background-color: #EAE7E7;
+  cursor: pointer;
+}
+
+.container2 {
+  position: absolute;
+  top: 334px;
+  left: 480px;
+  height: 120px;
+  width: 280px;
+  border-style: none;
+  -webkit-box-shadow: 3px 3px 3px #ededed;
+          box-shadow: 3px 3px 3px #ededed;
+  border-radius: 15px;
+}
+
+.container2:hover{
+  background-color: #EAE7E7;
+  cursor: pointer;
+}
+
+.container2 .icon {
+  position: absolute;
+  color: #009899;
+  top: 30px;
+  left: 23px;
+  height: 60px;
+  width: 60px;
+}
+
+.container2 .header {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  height: 20px;
+  width: flex;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #009899;
+}
+
+.container2 .description {
+  position: absolute;
+  left: 100px;
+  top: 45px;
+  width: 165px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.container3 {
+  position: absolute;
+  top: 334px;
+  left: 780px;
+  height: 120px;
+  width: 280px;
+  border-style: none;
+  -webkit-box-shadow: 3px 3px 3px #ededed;
+          box-shadow: 3px 3px 3px #ededed;
+  border-radius: 15px;
+}
+
+.container3:hover{
+  background-color: #EAE7E7;
+  cursor: pointer;
+}
+
+.container3 .icon {
+  position: absolute;
+  color: #009899;
+  top: 30px;
+  left: 23px;
+  height: 60px;
+  width: 60px;
+}
+
+.container3 .header {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  height: 20px;
+  width: flex;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #009899;
+}
+
+.container3 .description {
+  position: absolute;
+  left: 100px;
+  top: 40px;
+  width: 165px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.container4 {
+  position: absolute;
+  top: 334px;
+  left: 1080px;
+  height: 120px;
+  width: 280px;
+  border-style: none;
+  -webkit-box-shadow: 3px 3px 3px #ededed;
+          box-shadow: 3px 3px 3px #ededed;
+  border-radius: 15px;
+}
+
+.container4:hover{
+  background-color: #EAE7E7;
+  cursor: pointer;
+}
+
+.container4 .icon {
+  position: absolute;
+  color: #009899;
+  top: 30px;
+  left: 23px;
+  height: 60px;
+  width: 60px;
+}
+
+.container4 .header {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  height: 20px;
+  width: flex;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #009899;
+}
+
+.container4 .description {
+  position: absolute;
+  left: 100px;
+  top: 42px;
+  width: 165px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}

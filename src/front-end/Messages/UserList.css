@@ -1,0 +1,30 @@
+#user-list-headings {
+     /* Based on Figma */
+     position: relative;
+     width: 90px;
+     height: 16px;
+     left: 185px;
+     top: 35px;
+ 
+     font-family: 'Inter';
+     font-weight: 700;
+     /* font-size: 13px; */
+     font-size: 5px;
+     transform: scale(3, 3);
+     line-height: 16px;
+ 
+     /* identical to box height */
+     color: #434343;
+}
+
+.UserList {
+    position: relative;
+    width: 300px;
+    height: 160px;
+    left: 0px;
+    top: 45px;
+    padding-left: 15px;
+    padding-top: 3px;
+    overflow-y: scroll;
+    border-bottom: 1px solid rgb(225, 213, 213);
+}

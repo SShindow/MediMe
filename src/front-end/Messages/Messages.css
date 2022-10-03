@@ -1,0 +1,196 @@
+@import '~antd/dist/antd.css';
+
+.top-bar {
+  border-bottom: 3px solid #009899;
+}
+
+/*
+.header {
+  position: absolute;
+  left: 250px;
+  color: #035f78;
+  z-index: 999;
+}
+*/
+
+/* Grid layout */
+
+/*
+.item1 { grid-area: header; }
+.item2 { grid-area: sidemenu; }
+.item3 { grid-area: userlist; }
+.item4 { grid-area: chatwindow; }
+.item5 { grid-area: activity; }
+*/
+body{
+  max-height: 100vh;
+}
+
+.grid_container {
+  display: grid;
+
+  grid-template-columns: 80px 300px 2fr 0.5fr;
+  grid-template-rows: 0.4fr 2fr;
+  height: 100vh;
+  grid-template-areas:
+    "sidebar userlist username activity"
+    "sidebar userlist message activity";
+}
+
+/* item1 */
+.grid_container .item1 {
+  grid-area: sidebar;
+  
+  /*
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  */
+}
+
+body{
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+/* item 2 */
+.item2 {
+  position: relative;
+  grid-area: userlist;
+  background: white;
+  top:75px;
+  border-top: 1px solid rgb(225, 213, 213);
+  border-right: 1px solid rgb(225, 213, 213);
+  height: 635px;
+
+  /*
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  */
+
+  /*
+  grid-column-start: 2;
+  grid-column-end: 3;
+  */
+}
+
+h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 34px;
+  color: #013567;
+  display: inline-block !important;
+  opacity: 1;
+  visibility: visible;
+
+  position: absolute;
+  width: 143px;
+  height: 34px;
+  left: 90px;
+  top: 20px;
+  z-index: 997;
+}
+
+/* item 3 */
+.item3 {
+  position: relative;
+  top: 20px;
+  grid-area: message;
+  height: 510px;
+  width: auto;
+  overflow-y: scroll;
+  display: flex;
+  scroll-behavior: smooth;
+  flex-direction: column-reverse;
+  border-right: 1px solid rgb(225, 213, 213);
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  /*
+  grid-column-start: 3;
+  grid-column-end: 4;
+  */
+}
+
+/* item 4 */
+.grid_container .item4 {
+  position: relative;
+  grid-area: activity;
+  background-color: white;
+  border-top: 1px solid rgb(225, 213, 213);
+  border-right: 1px solid rgb(225, 213, 213);
+  border-left: 1px solid rgb(225, 213, 213);
+  width: 300px;
+  max-height: 100vh;
+  top: 75px;
+  /*
+  grid-column-start: 4;
+  grid-column-end: 5;
+  */
+}
+
+@media only screen and (max-width: 550px) and ( max-height: 100vh) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.8fr 0.5fr 2.2fr;
+    grid-template-areas:
+      "sidebar"
+      "userlist"
+      "username"
+      "message";
+  }
+}
+
+.message_sent {
+  padding-top: 500px;
+}
+
+.message_form {
+  max-height: 80%;
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.room_name {
+  background: none;
+  border: none;
+  width: 266px;
+  height: 30px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.avatar_group {
+  padding-right: 10px;
+}
+
+.unread {
+  position: absolute;
+  left: 237px;
+  width: 40px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 1px;
+  text-align: center;
+  background: #0084ff;
+  color: white;
+  border-radius: 15px;
+}
+
+
+
+/* :root {
+  --color-1: #242526;
+  --color-2: white;
+  --color-3: #0084ff;
+  --color-4: grey;
+  --color-5: #eb4034;
+  --color-6: #333;
+}
+
+# sourceMappingURL=Messages.css.map */

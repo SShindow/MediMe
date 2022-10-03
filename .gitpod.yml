@@ -1,0 +1,12 @@
+# Ports to expose on workspace startup
+ports:
+  - port: 3000
+    onOpen: open-browser
+
+# Commands to start on workspace startup
+tasks:
+  - init: npm install
+    command: npm start
+
+image:
+  file: .gitpod.Dockerfile

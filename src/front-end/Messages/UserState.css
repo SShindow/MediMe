@@ -1,0 +1,10 @@
+.selection {
+    margin-bottom: 10px;
+}
+.selection.author {
+    margin-left: 5px;
+    font-weight: bold;
+}
+.selection:hover {
+    cursor:pointer;
+}

@@ -1,0 +1,231 @@
+.top-menu {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: #fff;
+  width: 100%;
+  height: 75px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 997;
+}
+
+.top-menu .notification {
+  position: fixed;
+  display: center;
+  color: #009899;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  right: 19%;
+  font-size: 32px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.top-menu .notification:hover {
+  background-color: #ECE8E8;
+}
+
+.top-menu .account {
+  position: fixed;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 15%;
+  height: 65px;
+  top: 5px;
+  right: 50px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.top-menu .account .profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.top-menu .account .profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.top-menu .account .account-info {
+  margin-left: 7px;
+  font-size: auto;
+  overflow: hidden;
+}
+
+.top-menu .account .account-info .username {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 7px;
+  font-family: "Inter", sans-serif;
+  display: inline-block;
+}
+
+.top-menu .account .dropdown-menu {
+  position: absolute;
+  top: -10000px;
+}
+
+.top-menu .account .dropdown-menu.open {
+  position: absolute;
+  top: 73px;
+  right: 0px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #ECE8E8;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.top-menu .account .dropdown-menu.open li {
+  list-style-type: none;
+}
+
+.top-menu .account .dropdown-menu.open li a {
+  text-decoration: none;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item {
+  display: block;
+  border-radius: 4px;
+  font-size: small;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 13px;
+  padding-top: 2px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item .profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item .profile .overlay {
+  position: absolute;
+  top: 15%;
+  left: 20px;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item .profile .overlay:hover {
+  color: #19020251;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item .profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item .account-info {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 30%;
+  margin-top: -70px;
+  font-size: auto;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item .account-info .username {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 7px;
+  font-family: "Inter", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item .account-info .username a {
+  text-decoration: none;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item .account-info .small-text {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item .account-info a {
+  text-decoration: none;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item a {
+  text-decoration: none;
+  color: #19020251;
+}
+
+.top-menu .account .dropdown-menu.open .profile-item:hover {
+  background-color: #19020251;
+}
+
+.top-menu .account .dropdown-menu.open .menu-item {
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.top-menu .account .dropdown-menu.open .menu-item .icon {
+  display: inline-block;
+  list-style-type: none;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 13px;
+  padding-top: 2px;
+  padding-right: 3px;
+  cursor: pointer;
+  background-color: #ECE8E8;
+  border-radius: 50%;
+}
+
+.top-menu .account .dropdown-menu.open .menu-item span {
+  position: absolute;
+  display: inline-block;
+  line-height: 40px;
+  padding-left: 13px;
+}
+
+.top-menu .account .dropdown-menu.open .dropdown-menu.open {
+  text-decoration: none;
+  z-index: 998;
+}
+
+.top-menu .account .dropdown-menu.open .menu-item:hover {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  background-color: #19020251;
+  cursor: pointer;
+}
+/*# sourceMappingURL=TopBar.css.map */

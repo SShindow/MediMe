@@ -1,0 +1,36 @@
+#Active {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    left: 1215px;
+    top: 94px;
+}
+
+#Inactive {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    font-size: 17px;
+    top: 150px;
+}
+
+
+.Activity {
+    position: relative;
+    top: 30px;
+    padding-left: 20px;
+    height: 100vh;
+}
+
+
+.active {
+    position: absolute;
+    top: 35px;
+}
+
+.inactive {
+    position: absolute;
+    top: 310px;
+}

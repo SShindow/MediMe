@@ -1,0 +1,38 @@
+[
+    {
+        "invoice_id": "20220515000001",
+        "product_id": "3893462880",
+        "quantity": "10",
+        "export_date": "15-05-2022",
+        "employee_id": "79054637293"
+    },
+    {
+        "invoice_id": "20220525002301",
+        "product_id": "7853432980",
+        "quantity": "20",
+        "export_date": "25-05-2022",
+        "employee_id": "85774637293"
+    },
+    {
+        "invoice_id": "20220525002301",
+        "product_id": "2224432966",
+        "quantity": "15",
+        "export_date": "25-05-2022",
+        "employee_id": "85774637293"
+    },
+    {
+        "invoice_id": "20220606000021",
+        "product_id": "2224432966",
+        "quantity": "15",
+        "export_date": "06-06-2022",
+        "employee_id": "12774637265"
+    },
+    {
+        "invoice_id": "20220501001508",
+        "product_id": "3339932966",
+        "quantity": "15",
+        "export_date": "01-05-2022",
+        "employee_id": "85778887223"
+    }
+
+]

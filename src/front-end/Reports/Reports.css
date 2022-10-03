@@ -1,0 +1,287 @@
+.header {
+  position: fixed;
+  top: 24px;
+  left: 100px;
+}
+
+.header h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 34px;
+  color: #013567;
+}
+
+.graph {
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  height: 400px;
+  width: 1400px;
+  background-color: #FEFCE3;
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.graph .dropdown {
+  position: absolute;
+  top: 8px;
+}
+
+.import-container {
+  position: absolute;
+  top: 134px;
+  left: 100px;
+  height: 120px;
+  width: 280px;
+  border-style: none;
+  -webkit-box-shadow: 3px 3px 3px #ededed;
+          box-shadow: 3px 3px 3px #ededed;
+  border-radius: 15px;
+}
+
+.import-container img {
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+.import-container .header {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  height: 20px;
+  width: flex;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #013567;
+}
+
+.import-container .import-data {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
+.import-container .import-data .import-data-info {
+  height: flex;
+  width: flex;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 20px;
+  color: #1764AF;
+}
+
+.import-container .import-data .import-data-data {
+  position: absolute;
+  right: -60%;
+  top: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.export-container {
+  position: absolute;
+  top: 134px;
+  left: 433px;
+  height: 120px;
+  width: 280px;
+  border-style: none;
+  -webkit-box-shadow: 3px 3px 3px #ededed;
+          box-shadow: 3px 3px 3px #ededed;
+  border-radius: 15px;
+}
+
+.export-container img {
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+.export-container .header {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  height: 20px;
+  width: flex;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #013567;
+}
+
+.export-container .export-data {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
+.export-container .export-data .export-data-info {
+  height: flex;
+  width: flex;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 20px;
+  color: #1764AF;
+}
+
+.export-container .export-data .export-data-data {
+  position: absolute;
+  right: -60%;
+  top: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.earning-container {
+  position: absolute;
+  top: 134px;
+  left: 770px;
+  height: 120px;
+  width: 280px;
+  border-style: none;
+  -webkit-box-shadow: 3px 3px 3px #ededed;
+          box-shadow: 3px 3px 3px #ededed;
+  border-radius: 15px;
+}
+
+.earning-container img {
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+.earning-container .header {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  height: 20px;
+  width: flex;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #013567;
+}
+
+.earning-container .earning-data {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
+.earning-container .earning-data .earning-data-info {
+  height: flex;
+  width: flex;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 20px;
+  color: #1764AF;
+}
+
+.earning-container .earning-data .earning-data-data {
+  position: absolute;
+  right: -50%;
+  top: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.pseudo-menu {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.pseudo-menu .menu-item-active {
+  position: relative;
+  border-bottom: 3px solid #009899;
+  height: 25px;
+  color: #009899;
+}
+
+.pseudo-menu .menu-item-active :hover {
+  cursor: pointer;
+}
+
+.pseudo-menu .menu-item {
+  position: relative;
+  top: -25px;
+  left: 100px;
+  height: 25px;
+  text-align: center;
+  color: #727272;
+}
+
+.pseudo-menu .menu-item Link {
+  text-decoration: none;
+}
+
+.pseudo-menu .menu-item a {
+  color: #727272;
+  text-decoration: none;
+}
+
+.pseudo-menu .menu-item :hover {
+  color: #006d6d;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  font-family: 'Inter';
+  font-style: bold;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #013567;
+  width: 235px;
+  height: 35px;
+}
+
+.dropdown select{
+  font-family: 'Inter';
+  font-style: bold;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #013567;
+  width: 235px;
+  height: 35px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.dropdown select option{
+  background-color: transparent;
+}
